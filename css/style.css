@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,500&family=Teko&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+nav {
+    background-color: rgba(255,255,255,0);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    transition: background-color 0.4s ease-in-out;
+}
+nav img {
+    height: 60px;
+    margin-left: 120px;
+    padding-top: 10px;
+}
+nav.scrolled {
+    background-color: #343b42;
+}
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding-right: 50px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+nav ul {
+    float: right;
+    margin-right: 150px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 7px;
+}
+@media (max-width: 1224px) {
+    nav img {
+        height: 50px;
+        margin-left: 170px;
+        padding-top: 10px;
+    }
+    label.logo {
+        font-size: 25px;
+    }
+    nav ul {
+        float: right;
+        margin-right: 50px;
+    }
+    nav ul li a {
+        font-size: 15px;
+        padding: 0px 7px;
+    
+    }
+}
+header {
+    height: 700px;
+}
+.inicio {
+    background: url(../images/bg.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 120px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.inicio section {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 100px;
+}
+.inicio p {
+    padding-top: 40px;
+}
+.inicio a {
+    text-transform: uppercase;
+	color: #414a52;
+	background-color: #54d0dd;
+	padding: 14px 20px;
+}
+a:hover {
+    color: #54d0dd;
+	background-color: #414a52;
+    transition: .5s;
+}
+.container1 {
+    background-color: #54d0dd;
+    width: 100%;
+    height: 700px;
+}
+.titulo {
+    padding: 90px;
+    width: 100%;
+    height: 200px;
+}
+.titulo h2 {
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    color: #414a52;
+    text-align: center;
+    font-size: 50px;
+}
+hr {
+	height: 3px;
+	width: 120px;
+	background: rgba(0,0,0,0.3);
+	margin: 0 auto;
+	border: 0;
+}
+.sobre-linha {
+    justify-content: center;
+    display: flex;
+    height: 400px;
+}
+.sobre-linha span {
+    align-items: center;
+    width: 700px;
+    padding: 50px;
+}
+.sobre-linha p {
+    color: #414a52;
+    padding-bottom: 30px;
+}
+.sobre-linha a {
+    text-transform: uppercase;
+	color: #54d0dd;
+	background-color: #414a52;
+	padding: 14px 20px;
+}
+.sobre-linha a:hover {
+	background-color: #1c2024;
+}
+.container2 {
+    color: white;
+    font-size: 30px;
+    background-color: #414a52;
+    width: 100%;
+    height: 700px;
+}
+.container2 h2 {
+    color: #54d0dd;
+}
+.container2 hr {
+    background: rgba(15, 239, 255, 0.3);
+    width: 150px;
+}
+.certs-container {
+    height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.certs-elemento {
+    margin: 40px;
+}
+.certs-elemento img {
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+}
+.polaroid {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.polaroid img {
+    width: 300px;
+}
+.descricao {
+    text-align: center;
+    background-color: #414a52;
+    padding: 10px 20px;
+    color: white;
+}
+.container3 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    background-color: #54d0dd;
+    width: 100%;
+    height: 700px;
+}
+.container3 hr {
+    width: 80px;
+}
+.campos {
+    display: flex;
+    justify-content: center;
+}
+.inputs {
+    padding-left: 20px;
+}
+.inputs input {
+    padding: 10px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.8);
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+.textarea {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.textarea textarea  {
+    width: 824px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.8);
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+.botao button {
+    text-transform: uppercase;
+	color: #54d0dd;
+	background-color: #414a52;
+	padding: 14px 20px;
+    font-size: 16px;
+    border: none;
+}
+.botao {
+    padding-top: 25px;
+}
+.botao button:hover {
+    background-color: #1c2024;
+    transition: .5s;
+    cursor: pointer;
+}
+.social-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.social-container div {
+    padding-top: 150px;
+    padding-left: 40px;
+}
+.icones a {
+    color: #414a52;
+}
+.icones a:hover {
+    color: black;
+	background-color: rgba(0, 0, 0, 0);
+    transition: .5s;
+}
+.container4 {
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #414a52;
+    width: 100%;
+    height: 70px;
+}
+.container4 span {
+    font-size: 12px;
+}
+.container4 a {
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+/* IGNORE DAQUI PRA BAIXO */
+
+meau {
+    cursor: text;
+}
+.clicker a {
+    text-transform: capitalize;
+    text-decoration: 0;
+    color: #414a52;
+    padding: 0;
+    background-color: #54d0dd;
+    cursor: text;
+}
+.clicker a:hover {
+    background-color: #54d0dd;
+}
+.secreta {
+    background-color: #191919;
+    display: none;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+#secreta:target {
+    display: flex;
+}
+canvas {
+    background-color: #111;
+}
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+}
+.score--value {
+    font-weight: 700;
+    font-size: 4.5rem;
+    display: block;
+    margin-top: -10px;
+}
+.menu-screen {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+.game-over {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.final-score {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.btn-play {
+    border: none;
+    border-radius: 100px;
+    padding: 10px 15px 10px 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}

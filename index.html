@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="inicio">
+            <section>
+                <h1>Jefferson de Souza Gonçalves</h1>
+                <p>Analista Cloud • Ciência da Computação • Técnico em Redes</p>
+            </section>
+            <section>
+                <a href="#sobre">Ver mais</a>
+            </section>
+        </div>
+    </header>
+    <nav>
+        <img src="images/logo.png" alt="Logo PP">
+        <label class="logo">Portfolio Project</label>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#certificacoes">Certificações</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container1">
+        <div id="sobre" class="titulo">
+            <h2>Sobre Mim</h2>
+            <hr>
+        </div>
+        <div class="sobre-linha">
+            <img src="images/jeffIA.jpeg" alt="Imagem Jefferson alterada por IA">
+            <span>
+                <p>Olá! Sou o Jefferson, prazer. Tenho 32 anos e sou natural de Osasco - SP, moro atualmente numa cidade bem pequena no interior da Paraíba chamada Bom Jesus. Atualmente sou funcionário público nessa mesma cidade, no cargo de Técnico em Informática.</p>
+                <p>Tenho me dedicado a estudar computação em nuvem, após ter me encantado com esse universo altamente escalável de possibilidades e oportunidades. Já tenho 4 certificações da Microsoft e sigo estudando para mais. Sou formado como técnico em redes de computadores pelo <meau class="clicker"><a href="#secreta">Senai</a></meau>, recentemente iniciei a faculdade de Ciência da Computação e estou bem empolgado.</p>
+                <br><br>
+                <a href="#certificacoes">Certificações</a>
+            </span>
+        </div>
+    </div>
+    <div id="certificacoes" class="container2">
+        <div class="titulo">
+            <h2>Certificações</h2>
+            <hr>
+        </div>
+        <div class="certs-container">
+            <div class="certs-elemento">
+                <div class="polaroid">
+                    <img src="images/az900.png" alt="Imagem Microsoft AZ-900 Badge">
+                    <div class="descricao">
+                        <p>AZ-900</p>
+                    </div>
+                </div>
+            </div>
+            <div class="certs-elemento">
+                <div class="polaroid">
+                    <img src="images/sc900.png" alt="Imagem Microsoft SC-900 Badge">
+                    <div class="descricao">
+                        <p>SC-900</p>
+                    </div>
+                </div>
+            </div>
+            <div class="certs-elemento">
+                <div class="polaroid">
+                    <img src="images/az104.png" alt="Imagem Microsoft AZ-104 Badge">
+                    <div class="descricao">
+                        <p>AZ-104</p>
+                    </div>
+                </div>
+            </div>
+            <div class="certs-elemento">
+                <div class="polaroid">
+                    <img src="images/az305.png" alt="Imagem Microsoft AZ-305 Badge">
+                    <div class="descricao">
+                        <p>AZ-305</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contato" class="container3">
+        <div class="titulo">
+            <h2>Contato</h2>
+            <hr>
+        </div>
+        <div>
+            <form>
+                <div class="campos">
+                    <div class="inputs">
+                        <input type="text" id="nome" placeholder="Nome" required="">
+                    </div>
+                    <div class="inputs">
+                        <input type="email" id="email" placeholder="Email" required="">
+                    </div>
+                </div>
+                <div class="textarea">
+                    <textarea name="menssagem" id="menssagem" rows="4" placeholder="Menssagem" required=""></textarea>
+                </div>
+                <div class="botao">
+                    <button type="submit">Enviar Mensagem</button>
+                </div>
+            </form>
+            <div class="social-container">
+                <div class="icones"><a href="https://www.linkedin.com/in/jefferson-de-souza-goncalves-cloud/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-2x"></i></a></div>
+                <div class="icones"><a href="https://www.facebook.com/jefferson.souzagoncalves" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-facebook fa-2x"></i></a></div>
+                <div class="icones"><a href="https://www.youtube.com/channel/UCyao2GhaPp7yL_g_pvPuDHg" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-youtube fa-2x"></i></a></div>
+                <div class="icones"><a href="https://www.instagram.com/jefferson.sg91/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram fa-2x"></i></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="container4">
+        <span>Desenvolvido por Jefferson S. G. | Inspirado no template <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page225/spectrum/" target="_blank" rel="noopener noreferrer">SPECTRUM</a></span>
+    </div>
+    
+    
+
+    <!--IGNORE ESSA PARTE ABAIXO-->
+    
+
+    
+    <div class="secreta" id="secreta">
+        <div class="score">score: <span class="score--value">00</span></div>
+        <div class="menu-screen">
+            <span class="game-over">game over</span>
+            <span class="final-score">score <span>00</span></span>
+            <button class="btn-play">
+                Jogar novamente
+            </button>
+        </div>
+        <canvas width="600" height="600"></canvas>
+    </div>
+
+
+
+    <!--IGNORE ESSA PARTE ACIMA-->
+
+
+    <script src="https://kit.fontawesome.com/ab7fc22cc0.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
