@@ -101,7 +101,7 @@ a:hover {
 .container1 {
     background-color: #54d0dd;
     width: 100%;
-    height: 700px;
+    height: 900px;
 }
 .titulo {
     padding: 90px;
@@ -125,7 +125,7 @@ hr {
 .sobre-linha {
     justify-content: center;
     display: flex;
-    height: 400px;
+    height: 500px;
 }
 .sobre-linha span {
     align-items: center;
@@ -133,8 +133,9 @@ hr {
     padding: 50px;
 }
 .sobre-linha p {
+    font-size: 18px;
     color: #414a52;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 .sobre-linha a {
     text-transform: uppercase;
@@ -150,7 +151,7 @@ hr {
     font-size: 30px;
     background-color: #414a52;
     width: 100%;
-    height: 700px;
+    height: 900px;
 }
 .container2 h2 {
     color: #54d0dd;
@@ -184,6 +185,22 @@ hr {
     background-color: #414a52;
     padding: 10px 20px;
     color: white;
+}
+.contato-container {
+    display: flex;
+    justify-content: center;
+}
+.contato-container a {
+    text-transform: uppercase;
+    font-size: 18px;
+	color: #414a52;
+	background-color: #54d0dd;
+	padding: 14px 20px;
+}
+.contato-container a:hover {
+    color: #54d0dd;
+	background-color: black;
+    transition: .5s;
 }
 .container3 {
     color: black;
